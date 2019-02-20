@@ -10,13 +10,7 @@ public:
 	String()
 	{
 		len = 0;
-		cout << "in the default constructor" << endl;
-	}
-	String(char *t, int l)
-	{
-		len = l;
-		s = (char *)malloc(sizeof(char)*(l + 1));
-		strcpy(s, t);
+		s=NULL;
 	}
 	String(char *t)
 	{
@@ -24,24 +18,26 @@ public:
 		s = (char*)malloc(sizeof(char)*(len + 1));
 		strcpy(s, t);
 	}
+	String(const String &temp)
+	{
+		s = temp.s;
+		len = temp.len;
+	}
 	~String()
 	{
-		cout <<"Destructor" << endl;
 	}
 	String operator+(String str)
 	{
 		String temp;
 		temp.len = len + str.len;
-		//cout << temp.len;
 		temp.s = (char *)malloc(sizeof(char)*((temp.len) + 1));
 		strcpy(temp.s, s);
-		strcat(temp.s, str.s);
-		cout << "after the step";
+		temp.s=strcat(temp.s, str.s);
 		return temp;
 	}
 	char &operator[](int n)
 	{
-		return (s[n]);
+		return (this->s[n]);
 	}
 	String operator=(String c)
 	{
@@ -61,31 +57,28 @@ ostream &operator<<(ostream &cout, String str)
 }
 istream &operator>>(istream &cin, String &str)
 {
-	cin>>str.len;
+    char temp[50];
+	cin>>temp;
 	str.s=(char *)malloc(sizeof(char)*(str.len+1));
-	cin>>str.s;
+	strcpy(str.s,temp);
 	return cin;
 
 }
 int main()
 {
-	String s1("hello");
-	cout << s1;
-	String s2("Wordl");
-	String s3;
-	String s4;
-	String s5("copying");
-	s3 = s1 + s2;
-	cout << s3 << endl;
-	cin>>s4;
-	cout<<s4<<endl;
-	s3[2]='p';
-	cout<<s3<<endl;
-	cout<<s3[2]<<endl;
+	String s1, s2, s3,s5;
+	cout<<"\n enter first string";
+	cin >> s1;
+	s2 = s1;
+	cout<<"\n enter second string";
+	cin>>s5;
+	String s4(s5);
+	s3 = s1 + s4;
+	cout << "\ns1 = " << s1;
+	cout << "\ns2 = " << s2;
+	cout << "\ns3 = " << s3;
+	cout << "\ns2[2] = " << s2[2];
 
-	s1=s2;
-	cout<<s1<<endl;
-	s1[2]='z';
-	cout<<s2<<endl;
+
 	return 0;
 }
