@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\dell\source\repos\project8\project8\source.cpp(58): warning C4305: 'initializing': truncation from 'int' to 'char'
+c:\users\dell\source\repos\project8\project8\source.cpp(58): warning C4309: 'initializing': truncation of constant value
+c:\users\dell\source\repos\project8\project8\source.cpp(89): warning C4018: '<=': signed/unsigned mismatch
+c:\users\dell\source\repos\project8\project8\source.cpp(75): warning C4715: '_stack_::peek': not all control paths return a value
+  Project8.vcxproj -> C:\Users\Dell\source\repos\Project8\Debug\Project8.exe
