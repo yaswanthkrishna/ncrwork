@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\dell\source\repos\c++ redone programs\project3\source.cpp(97): warning C4101: 'input_real': unreferenced local variable
+c:\users\dell\source\repos\c++ redone programs\project3\source.cpp(97): warning C4101: 'input_imaginary': unreferenced local variable
+c:\users\dell\source\repos\c++ redone programs\project3\source.cpp(37): warning C4715: 'STACK<int>::pop': not all control paths return a value
+c:\users\dell\source\repos\c++ redone programs\project3\source.cpp(37): warning C4715: 'STACK<float>::pop': not all control paths return a value
+c:\users\dell\source\repos\c++ redone programs\project3\source.cpp(37): warning C4715: 'STACK<char *>::pop': not all control paths return a value
+  Project3.vcxproj -> C:\Users\Dell\source\repos\C++ redone programs\Debug\Project3.exe

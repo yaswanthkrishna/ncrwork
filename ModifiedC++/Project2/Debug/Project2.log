@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\dell\source\repos\c++ redone programs\project2\source.cpp(122): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\dell\source\repos\c++ redone programs\project2\source.cpp(38): warning C4715: 'Stack<char *>::pop': not all control paths return a value
+c:\users\dell\source\repos\c++ redone programs\project2\source.cpp(38): warning C4715: 'Stack<int>::pop': not all control paths return a value
+c:\users\dell\source\repos\c++ redone programs\project2\source.cpp(38): warning C4715: 'Stack<float>::pop': not all control paths return a value
+  Project2.vcxproj -> C:\Users\Dell\source\repos\C++ redone programs\Debug\Project2.exe
