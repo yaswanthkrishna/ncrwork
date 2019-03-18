@@ -1,0 +1,4 @@
+﻿  6.cpp
+c:\users\dell\source\repos\c++\6\6.cpp(25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\source\repos\c++\6\6.cpp(26): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  6.vcxproj -> C:\Users\Dell\source\repos\c++\Debug\6.exe
