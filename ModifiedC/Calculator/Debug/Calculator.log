@@ -1,0 +1,5 @@
+﻿  calculator.cpp
+c:\users\dell\desktop\ncrwork\modified c assignment programs\calculator\calculator.cpp(222): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\modified c assignment programs\calculator\calculator.cpp(264): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\desktop\ncrwork\modified c assignment programs\calculator\calculator.cpp(284): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Calculator.vcxproj -> C:\Users\Dell\Desktop\ncrwork\Modified C Assignment Programs\Debug\Calculator.exe
