@@ -1,0 +1,7 @@
+﻿  fourth.cpp
+c:\users\dell\desktop\yaswanth\ncrwork\windows\fourth\fourth.cpp(28): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+  c:\users\dell\desktop\yaswanth\ncrwork\windows\fourth\fourth.cpp(28): note: consider using '%ls' in the format string
+  c:\users\dell\desktop\yaswanth\ncrwork\windows\fourth\fourth.cpp(28): note: consider using '%lls' in the format string
+  c:\users\dell\desktop\yaswanth\ncrwork\windows\fourth\fourth.cpp(28): note: consider using '%Ls' in the format string
+  c:\users\dell\desktop\yaswanth\ncrwork\windows\fourth\fourth.cpp(28): note: consider using '%ws' in the format string
+  fourth.vcxproj -> C:\Users\Dell\Desktop\yaswanth\ncrwork\windows\Debug\fourth.exe
